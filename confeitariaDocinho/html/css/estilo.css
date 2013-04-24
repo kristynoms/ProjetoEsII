@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+		background:url(../imagens/texture.jpg) repeat;
+		margin:0 auto;
+		font-size:13px;
+	}	
+		
+#container {
+	width:100%;
+	margin:40px auto;
+	}		
+#topoWrapper {
+		width:960px;
+		height:119px;
+		margin:0 auto;
+		background-color:#000;
+		background-image:url(../imagens/header_tail.jpg);
+		background-repeat:repeat-x;	
+		
+	}
+	
+#logo {
+	width:auto;
+	height:119px;
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+}
+
+#menu {
+	width:620px;
+	height:120px;
+	float:right;
+	}
+	
+#menu ul {
+		margin:0 auto;	
+		
+	}	
+#menu ul li {
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+	float:left;
+	padding:52px 25px;
+	display:inline;
+	}
+	
+#menu ul li:hover {
+	background:#636;
+	}	
+#menu ul a li {
+	color:#FFF;
+	text-decoration:none;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:18px;
+	}	
+
+#meioTopoWrapper {width:944px;
+margin:0 auto;
+border:8px solid #FFF;
+}	
+
+#wrapper {
+	margin:0 !important;
+	padding:0 important;}
+
+
+#meioBottomWrapper {
+		width:960px;
+		height:400px;
+		margin:10px auto;
+		background:#FFF;
+	}
+
+#firstItem {
+	text-align:left;
+	float: left;
+	width: 260px;
+	padding: 19px 20px 28px;
+	margin-left: 20px;
+	}
+#firstItem a:hover {
+		padding:5px;
+		background:#636;
+		color:#FFF;
+		border-radius:2px;
+		text-decoration:none;
+	}
+	
+#firstItem a{
+	margin-left:-5px;
+	text-decoration:none;
+	color:#636;
+	padding:5px;
+	
+	}	
+	
+.mid {
+	padding: 19px 15px 28px !important;
+	}
+.title {
+		margin-bottom:0 !important;
+		font-size:150%;
+		color:#636 !important;
+	}
+p {
+    font-size:100%;
+    line-height:20px;
+}
+
+.clear {clear:both;}
+
+#rodape {
+    width: 960px;
+    height: 150px;
+    margin:0 auto;
+    background: #636;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+    box-shadow: 0 0 5px #888;
+}
+
+#rodape #contato {
+    margin-top:10px;
+    margin-left:40px;
+    width: 200px;
+    float:left;
+}
+
+.tituloContato {
+    font-size: 150%;
+    color: #ffffff ;
+}
