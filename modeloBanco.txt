@@ -5,15 +5,22 @@ Nome de campos no singular.
 
 -tabela usuarios
 	pkcod_usuario integer auto_increment
-	nome varchar not null
+	nome_usuario varchar not null
 	email varchar not null
 	telefone varchar
 	imagem varchar
 	primary key(pkcod_usuario)
 
+-tabela categorias
+	pkcod_categoria integer auto_increment
+	nome varchar
+
 -tabela produtos
 	pkcod_produto integer auto_increment
+	fkcod_categoria references pkcod_categoria (categorias)
 	nome varchar not null
 	descricao varchar
 	imagem varchar
-	valor/kg double/real 		
+	valor/kg double/real
+
+		
