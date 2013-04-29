@@ -26,7 +26,16 @@ Nome de campos no singular.
 -tabela servicos
        pkcod_servicos integer auto_increment
        nome_servico varchar not null,
-       tipo varchar not null,
+       tipo varchar not null, 
        status varchar not null
+
+-tabela textos
+       pkcod_textos integer auto_increment,
+       tipo varchar not null,
+       conteudo varchar not null
+       
+      
+      
+
 
 		
