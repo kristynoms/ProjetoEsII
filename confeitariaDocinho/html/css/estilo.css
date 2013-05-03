@@ -145,3 +145,12 @@ p {
     height: 600px;
     border:1px solid #636;
 }
+
+/* Pag compania */
+
+#compania {
+    width: 960px;
+    height: 600px;
+    background: #FFF;
+    border: 1px solid #636;
+}
