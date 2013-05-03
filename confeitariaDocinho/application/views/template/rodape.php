@@ -1,4 +1,5 @@
-	<div id="rodape">
+<div class="clear"></div>
+<div id="rodape">
             <div id="contato">
                 <div class="tituloContato">Contato</div>
                 <p></p>

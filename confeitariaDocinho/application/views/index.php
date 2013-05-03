@@ -1,17 +1,4 @@
-	<div id="topoWrapper">
-    	<div id="logo">
-        	<img src="/html/imagens/logo.fw.png" alt="Confeitaria Dococinho" title="Confeitaria Docinho"/>
-        </div>
-        <div id="menu">
-        	<ul>
-            	<a href="#" title="#"><li>Compania</li></a>
-                <a href="#" title="#"><li>Serviços</li></a>
-                <a href="#" title="#"><li>Produtos</li></a>
-                <a href="#" title="#"><li>Contato</li></a>
-            </ul>
-        </div>
-    </div>
-    <div class="clear"></div>
+
     <div id="meioTopoWrapper"> 
     <!-- COMEÇO DO SLIDER  -->
     <div id="wrapper"> 
